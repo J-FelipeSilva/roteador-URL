@@ -8,7 +8,7 @@ const server = http.createServer((request, response) => {
             response.writeHead(404, { "Content-Type": "text/html" });
             response.end("Página não encontrada");
         } else {
-            response.writeHead(200, { "Content-Type": "text/html; charset=UTF-8" });
+            response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
             response.end();
         }
@@ -19,7 +19,7 @@ const server = http.createServer((request, response) => {
             response.writeHead(404, { "Content-Type": "text/html" });
             response.end("Página não encontrada");
         } else {
-            response.writeHead(200, { "Content-Type": "text/html; charset=UTF-8" });
+            response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
             response.end();
         }
@@ -30,7 +30,7 @@ const server = http.createServer((request, response) => {
             response.writeHead(404, { "Content-Type": "text/html" });
             response.end("Página não encontrada");
         } else {
-            response.writeHead(200, { "Content-Type": "text/html; charset=UTF-8" });
+            response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
             response.end();
         }
@@ -41,7 +41,7 @@ const server = http.createServer((request, response) => {
             response.writeHead(404, { "Content-Type": "text/html" });
             response.end("Página não encontrada");
         } else {
-            response.writeHead(200, { "Content-Type": "text/html; charset=UTF-8" });
+            response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
             response.end();
         }
